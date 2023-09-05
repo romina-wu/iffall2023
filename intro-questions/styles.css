@@ -1,14 +1,60 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 15px;
     font-family: 'Inter', sans-serif;
     background-color: rgb(254, 237, 225);
 }
 
+h1 {
+    transition-duration: 200ms; 
+}
+
+h1:hover {
+    transition-duration: 1.6s;
+    letter-spacing: 10px;
+}
+
+.list-div {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 li {
-    margin-bottom: 16px;
+    animation-duration: 600ms;
+    transition-duration: 600ms;
+    margin-bottom: 10px;
     line-height: 20px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.li-w-img {
+    display: flex;
+}
+
+li:hover {
+    animation-duration: 600ms;
+    background-color: white;
+    transition-duration: 600ms;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(113, 21, 18);
+}
+
+a:hover  {
+    text-decoration: underline;
+    transition-duration: 200ms;
+    color: rgb(184, 49, 49);
 }
 
 img {
+    width: auto;
     max-width: 500px;
+    border-radius: 5px;
+    border: solid black 3px;
+    margin-top: 7px;
 }
