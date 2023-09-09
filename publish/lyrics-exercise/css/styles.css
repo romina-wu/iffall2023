@@ -1,0 +1,71 @@
+body {
+    font-family: 'Avenir Next', sans-serif;
+}
+
+.img-background {
+    background-image: url("../images/toto_album_cover__Isolation.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: 'Monotype Modern Display';
+    margin: 7px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Avenir Next', sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.main-div {
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgba(246, 251, 255, 0.603);
+    width: auto;
+    max-width: 1000px;
+}
+
+.lyrics-div {
+    padding: 0 35px;
+}
+
+footer {
+    border-top: solid black 2px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 600;
+    color: rgb(62, 68, 76);
+}
