@@ -1,0 +1,87 @@
+body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Mono', monospace;
+    background-color: black;
+    color: rgb(230, 255, 230);
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img-cont {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 1000; 
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1:hover {
+    opacity: 0.04;
+    transition-duration: 500ms;
+}
+
+p {
+    margin: 14px 0;
+}
+
+.scene-div {
+    padding: 1px 30px 15px 30px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+.scene-div:hover {
+    box-shadow: 0 0 8px 2px rgba(119, 255, 119, 0.422);
+    transition-duration: 300ms;
+}
+
+.peter {
+    color: rgb(255, 165, 165);
+}
+
+.ray {
+    color: rgb(159, 170, 255);
+}
+
+.egon {
+    color: rgb(255, 255, 189);
+}
+
+.winston {
+    color: rgb(222, 172, 255);
+}
+
+.mayor {
+    color: rgb(255, 172, 220);
+}
+
+.dana {
+    color: rgb(255, 209, 159);
+}
+
+.action {
+    font-style: italic;
+}
