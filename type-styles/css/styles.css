@@ -1,0 +1,79 @@
+html {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-size: 18px;
+    margin: 5px 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(34, 60, 46);
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 14px;
+    color: rgb(80, 137, 105);
+    padding: 1px 0;
+}
+
+div {
+    margin-bottom: 65px;
+}
+
+p {
+    margin-top: 2px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.tight {
+    letter-spacing: -2px;
+}
+
+.spaced {
+    letter-spacing: 2px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
