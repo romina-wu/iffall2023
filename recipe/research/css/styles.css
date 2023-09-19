@@ -3,9 +3,31 @@ html {
 }
 
 body {
-    margin: 10px 30px;
+    margin: 0 auto;
+    padding: 10px 30px;
 }
 
 img {
-    max-height: 300px;
+    max-height: 250px;
+}
+
+div {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline dotted 4px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(81, 38, 48);
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
 }
