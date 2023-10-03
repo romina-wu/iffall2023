@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+}
+
+img {
+    border: 2px solid rgb(71, 71, 71);
+}
+
+h2 {
+    text-align: center;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.desk-img {
+    max-width: 300px;
+    height: auto;
+    margin: 2px 20px;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobile-img {
+    max-height: 800px;
+    margin: 5px 25px;
+}
