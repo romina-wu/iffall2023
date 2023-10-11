@@ -1,0 +1,138 @@
+.cover-img {
+    background-image: url("https://www.publicdomainpictures.net/pictures/40000/velka/baking.jpg");
+    padding-bottom: 30px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-position: top;
+    background-color: #faf2e3c5;
+}
+
+.title-box {
+    background-color: rgba(255, 243, 227, 0.612);
+    padding: 10px 15px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+h3 {
+    padding-top: 0px;
+    margin: 0;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.main-cont {
+    width : 959px;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.section1 {
+    color: #532c0f;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: #faf2e3;
+}
+
+.section1 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+    object-position: center;
+    display: inline;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.section1 p {
+    padding-bottom: 16px;
+}
+
+.section2 {
+    color: #faf2e3;
+    background-color: #532c0f;
+    padding-top: 19px;
+    padding-bottom: 24px;
+    display: flex;
+}
+
+.section2 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    object-position: center;
+    margin-right: 12px;
+}
+
+.section2 p {
+    padding-right: 20px;
+}
+
+.flex-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 50%;
+    padding-bottom: 24px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.section3 {
+    padding-top: 19px;
+    padding-bottom: 100px;
+    background-color: #faf2e3;
+    color: #532c0f;
+}
+
+.section3 p {
+    width: 703px;
+    margin: auto;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.footer {
+    padding-top: 41px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    background-color: #532c0f;
+    color: #faf2e3;
+    font-size: 18px;
+}
