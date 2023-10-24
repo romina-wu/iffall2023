@@ -1,0 +1,304 @@
+html {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 20px;
+    color: rgb(50, 22, 12);
+    background-color: bisque;
+}
+
+a {
+    color: rgb(168, 93, 23);
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.text-cont {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 8px 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+ }
+
+.flex-cont-2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.flex-item {
+    margin: 0 5px;
+    padding: 20px;
+}
+
+.half {
+    width: 50%;
+}
+
+.google-doc {
+    font-weight: 600;
+    color: rgb(79, 25, 10);
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.instruction-flex-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-item-instruct {
+    border: solid rgb(50, 22, 12) 3px;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    width: 40%;
+}
+
+.timing {
+    background-color: rgb(200, 144, 91);
+}
+
+.servings {
+    background-color: rgb(216, 148, 143);
+}
+
+.timing > p, .timing > h3, .servings > p, .servings > h3 {
+    text-align: center;
+}
+
+.mobile-title, .mobile-info {
+    display: none;
+    color: rgb(79, 25, 10);
+}
+
+.img-row {
+    max-height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 5px;
+    width: 98%;
+}
+
+.img-row img {
+    max-height: 300px;
+    width: auto;
+    border: solid rgb(50, 22, 12) 3px;
+    border-radius: 4px;
+}
+
+.hero-image {
+    background-image: url("../img/pionono_camiliamade.webp");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero-text {
+    color: rgb(50, 22, 12);
+}
+
+.white-box {
+    padding: 15px 25px;
+    position: absolute;
+    width: 40%;
+    height: 97%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding-bottom: 0;
+}
+
+.white-box h1 {
+    font-size: 52px;
+    margin-top: 15px;
+}
+
+.white-box p {
+    font-size: 18px;
+    max-width: 450px;
+}
+
+.ingredients-image {
+    width: 100%;
+    background-image: url('../img/ingredients_camiliamade.png');
+    height: 440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid rgb(50, 22, 12) 3px;
+    border-radius: 4px;
+}
+  
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(255, 232, 232);
+    background-color: rgb(50, 22, 12);
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-big-bottom {
+    margin-bottom: 25px;
+}
+  
+.hero-text button:hover {
+    background-color: rgb(91, 69, 61);
+    color: white;
+}
+
+.divider-line {
+    border-left: dashed rgb(50, 22, 12) 2px;
+}
+
+footer {
+    color: bisque;
+    background-color: rgb(79, 25, 10);
+    padding: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color:rgb(200, 144, 91);
+}
+
+@media only screen and (max-width: 920px) {
+    .white-box h1 {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+
+    .img-row img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .text-cont {
+        max-width: none;
+    }
+
+    .flex-cont {
+        flex-direction: column;
+    }
+
+    .flex-cont-2 {
+        gap: 10px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .flex-item {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .divider-line {
+        display: none;
+    }
+
+    .ingredients-image {
+        margin: 25px 0 35px 0;
+    }
+    
+}
+
+@media only screen and (max-width: 755px) {
+    .mobile-title, .mobile-info {
+        display: inline;
+    }
+
+    .mobile-title {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hero-image {
+        height: 300px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .half {
+        width: 100%;
+    }
+
+    .flex-item-instruct {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+}
+
+@media only screen and (max-width: 755px) {
+    .white-box {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    ol {
+        padding-left: 25px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+
+    .img-row {
+        margin: 20px 0;
+    }
+
+    .list-big-bottom {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    body {
+        font-size: 12px;
+    }
+}
