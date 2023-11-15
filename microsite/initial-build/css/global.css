@@ -1,0 +1,223 @@
+body {
+    font-family: 'Inter';
+}
+
+p {
+  font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #171727;
+    height: 70px;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+  }
+
+  .navbar.coraline {
+    background-color: #BB9B2A;
+  }
+
+  .navbar.paranorman {
+    background-color: rgb(107, 132, 9);
+  }
+
+  .navbar.boxtrolls {
+    background-color: rgb(88, 61, 34);
+  }
+
+  .navbar.kubo {
+    background-color: rgb(128, 35, 35);
+  }
+
+  .navbar.missinglink {
+    background-color: rgb(34, 86, 49);
+  }
+
+  .nav-home {
+    float: left;
+    align-self: flex-start;
+    height: 50px;
+    margin: auto;
+    margin-left: 12px;
+  }
+
+  .nav-home img {
+    height: 100%;
+  }
+  
+  .nav-links {
+    float: right;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(231, 238, 255, 0.3);
+  }
+
+  .hero-image {
+    padding-top: 70px;
+    background-image: url("../img/travis_knight_01.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.info-block {
+  line-height: 30px;
+}
+
+.hero-image.coraline {
+  background-image: url("../img/coraline_landscape.jpg");
+}
+
+.hero-image.paranorman {
+  background-image: url("../img/paranorman-01.jpg");
+}
+
+.hero-image.kubo {
+  background-image: url("../img/kubo-and-the-two-strings_hero.jpg");
+}
+
+.hero-image.boxtrolls {
+  background-image: url("../img/boxtrolls.jpg");
+}
+
+.hero-image.missinglink {
+  background-image: url("../img/Missing-Link-Hero.jpg");
+}
+
+.text-center {
+  text-align: center;
+}
+  
+.hero-text {
+    color: #171727;
+}
+
+.flex-section {
+  display: flex;
+}
+
+h1 {
+  color: #171727;
+  font-size: 52px;
+  margin-top: 15px;
+}
+
+.white-box {
+    padding: 15px 25px;
+    position: absolute;
+    width: 35%;
+    height: 98%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding-bottom: 0;
+}
+
+.white-box h1 {
+    font-size: 52px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.white-box p {
+    font-size: 20px;
+    max-width: 420px;
+    margin-left: 25px;
+}
+
+.flex-item.center {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.flex-section.bottom {
+  background-color: #364053;
+  color: #AFBCBA;
+  gap: 20px;
+}
+
+.flex-section.bottom h1 {
+  color: #ffffff;
+}
+
+.flex-section.bottom.coraline {
+  align-items: center;
+  background-color: #BB9B2A;
+  color: #FFFFFF;
+}
+
+.flex-section.bottom.kubo {
+  align-items: center;
+  background-color: rgb(128, 35, 35);
+  color: #FFFFFF;
+}
+
+.flex-section.bottom.boxtrolls {
+  align-items: center;
+  background-color: rgb(88, 61, 34);
+  color: #FFFFFF;
+}
+
+.flex-section.bottom.missinglink {
+  align-items: center;
+  background-color: rgb(34, 86, 49);
+  color: #FFFFFF;
+}
+
+.flex-section.bottom.paranorman {
+  align-items: center;
+  background-color: rgb(107, 132, 9);
+}
+
+.flex-section.bottom.carosel h1 {
+  color: #FFFFFF;
+}
+
+.carosel {
+  margin: 0 auto;
+}
+
+.carosel img {
+  max-height: 600px;
+  width: auto;
+  max-width: 1000px;
+}
+
+.flex-item.half {
+  width: 47%;
+}
+
+.flex-item img {
+  width: 100%;
+}
+
+footer {
+  color: white;
+  background-color: #171727;
+  padding: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
