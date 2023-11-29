@@ -1,0 +1,438 @@
+ * {box-sizing:border-box}
+
+body {
+  font-family: "Inter";
+}
+
+p {
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #171727;
+  height: 70px;
+  justify-content: flex-end;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+}
+
+.navbar.coraline {
+  background-color: #bb9b2a;
+}
+
+.navbar.paranorman {
+  background-color: rgb(107, 132, 9);
+}
+
+.navbar.boxtrolls {
+  background-color: rgb(88, 61, 34);
+}
+
+.navbar.kubo {
+  background-color: rgb(128, 35, 35);
+}
+
+.navbar.missinglink {
+  background-color: rgb(34, 86, 49);
+}
+
+.nav-home {
+  float: left;
+  align-self: flex-start;
+  height: 50px;
+  margin: auto;
+  margin-left: 12px;
+}
+
+.nav-home img {
+  height: 100%;
+}
+
+.nav-links {
+  float: right;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-links a {
+  display: block;
+  color: white;
+  height: 100%;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+.current-page {
+  cursor: default;
+  background-color: rgba(231, 238, 255, 0.3);
+}
+
+.nav-links a:hover {
+  background-color: rgba(231, 238, 255, 0.3);
+}
+
+.hero-image {
+  padding-top: 70px;
+  background-image: url("../img/travis_knight_01.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-block {
+  line-height: 30px;
+}
+
+.hero-image.coraline {
+  background-image: url("../img/coraline_landscape.jpg");
+}
+
+.hero-image.paranorman {
+  background-image: url("../img/paranorman-01.jpg");
+}
+
+.hero-image.kubo {
+  background-image: url("../img/kubo-and-the-two-strings_hero.jpg");
+}
+
+.hero-image.boxtrolls {
+  background-image: url("../img/boxtrolls.jpg");
+}
+
+.hero-image.missinglink {
+  background-image: url("../img/Missing-Link-Hero.jpg");
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hero-text {
+  color: #171727;
+}
+
+.flex-section {
+  display: flex;
+}
+
+.mobile-section {
+  margin: 10px 5px;
+}
+
+h1 {
+  color: #171727;
+  font-size: 52px;
+  margin-top: 15px;
+}
+
+.mobile-title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.mobile-info {
+  padding: 0 25px;
+  font-size: 16px;
+}
+
+.white-box {
+  padding: 15px 25px;
+  position: absolute;
+  width: 35%;
+  height: 98%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.616);
+  padding-bottom: 0;
+}
+
+.white-box h1 {
+  font-size: 52px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.white-box p {
+  font-size: 20px;
+  max-width: 420px;
+  margin-left: 25px;
+}
+
+.flex-item.center {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.flex-section.bottom {
+  background-color: #364053;
+  color: #afbcba;
+  gap: 20px;
+}
+
+.flex-section.bottom h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.flex-section.bottom.coraline {
+  align-items: center;
+  background-color: #bb9b2a;
+  color: #ffffff;
+}
+
+.flex-section.bottom.kubo {
+  align-items: center;
+  background-color: rgb(128, 35, 35);
+  color: #ffffff;
+}
+
+.flex-section.bottom.boxtrolls {
+  align-items: center;
+  background-color: rgb(88, 61, 34);
+  color: #ffffff;
+}
+
+.flex-section.bottom.missinglink {
+  align-items: center;
+  background-color: rgb(34, 86, 49);
+  color: #ffffff;
+}
+
+.flex-section.bottom.paranorman {
+  align-items: center;
+  background-color: rgb(107, 132, 9);
+}
+
+.flex-section.bottom.carosel h1 {
+  color: #ffffff;
+}
+
+.carosel {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+}
+
+/* .carosel img {
+  max-height: 600px;
+  width: auto;
+  max-width: 1000px;
+} */
+
+.flex-item.half {
+  width: 47%;
+}
+
+.flex-item img {
+  width: 100%;
+}
+
+footer {
+  color: white;
+  background-color: #171727;
+  padding: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-title, .mobile-info {
+  display: none;
+}
+
+@media only screen and (max-width: 920px) {
+  .white-box h1 {
+    font-size: 42px;
+  }
+
+  .carosel {
+    margin: 0 auto;
+    padding: 0 -10px;
+    position: relative;
+  }
+
+  .white-box p {
+    font-size: 16px;
+    max-width: 420px;
+    margin-left: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 860px) {
+  .flex-cont {
+    flex-direction: column;
+  }
+
+  .flex-section.bottom {
+    flex-direction: column;
+  }
+
+  .flex-item.half {
+    width: auto;
+    margin: 15px;
+  }
+
+  .flex-item {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (max-width: 755px) {
+  .mobile-title,
+  .mobile-info {
+    display: block;
+  }
+
+  .mobile-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  body, p {
+    font-size: 14px;
+  }
+
+  .white-box {
+    display: none;
+  }
+
+  .flex-item.center {
+    margin: 7px 15px;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .navbar {
+    font-size: 9px;
+    height: 50px;
+    justify-content: flex-end;
+    position: fixed;
+  }
+
+  .nav-links a {
+    padding: 19px 12px;
+  }
+
+  .nav-home {
+    height: 25px;
+    margin: auto;
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  footer {
+    font-size: 11px;
+  }
+
+}
+
+@media only screen and (max-width: 440px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  max-height: 500px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 52%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background-color: rgba(0,0,0,0.1);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffffff72;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.dots-div {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
