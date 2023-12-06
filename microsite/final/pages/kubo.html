@@ -1,0 +1,135 @@
+<script src="../javascript/carousel.js"></script>
+<script src="https://kit.fontawesome.com/eea9932f01.js" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../img/Laika_logo_BLACK.png" />
+    <title>Kubo and the Two Strings - Laika Studios</title>
+  </head>
+  <ul class="navbar kubo">
+    <li class="nav-home">
+      <a href="../index.html"
+        ><img src="../img/Laika_logo_WHITE.png" alt="Home"
+      /></a>
+    </li>
+    <li class="nav-links"><a href="missinglink.html">Missing Link</a></li>
+    <li class="nav-links"><a href="boxtrolls.html">Boxtrolls</a></li>
+    <li class="nav-links"><a class="current-page" href="kubo.html">Kubo</a></li>
+    <li class="nav-links"><a href="paranorman.html">ParaNorman</a></li>
+    <li class="nav-links"><a href="coraline.html">Coraline</a></li>
+    <li>
+      <a href="javascript:void(0);" class="nav-links nav-icon" onclick="mobileNav()">
+        <i class="fa-solid fa-bars" style="color:white;"></i>
+      </a>
+  </li>
+  </ul>
+  <div class="mobile-menu">
+    <div id="mobile-links">
+      <a href="missinglink.html">Missing Link</a>
+      <a href="boxtrolls.html">Boxtrolls</a>
+      <a href="kubo.html">Kubo</a>
+      <a href="paranorman.html">ParaNorman</a>
+      <a href="coraline.html">Coraline</a>
+    </div>
+  </div>
+  <body>
+    <div class="hero-image kubo">
+      <div class="white-box">
+        <div class="hero-text">
+          <h1>Kubo and the Two Strings</h1>
+          <p class="info-block">
+            <strong>Release Date:</strong> 2016 <br>
+            <strong>Duration:</strong> 95 minutes <br>
+            <strong>Awards:</strong> Academy Award Nomination, Bafta Nomination, Golden Globe Nomination <br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-section">
+      <h1 class="mobile-title">Kubo and the Two Strings</h1>
+        <div class="mobile-info">
+          <strong>Release Date:</strong> 2016 <br>
+          <strong>Duration:</strong> 95 minutes <br>
+          <strong>Awards:</strong> Academy Award Nomination, Bafta Nomination, Golden Globe Nomination <br>
+        </div>
+    </div>
+    <div class="flex-section">
+      <div class="flex-item center">
+        <p>
+          In a small village in an ancient mythical Japan, Kubo and his magic
+          shamisen unwittingly summon vengeful spirits who wish to harm him and
+          his ailing mother. While on the run, he encounters magical creatures,
+          and learns the truth of his earthly family's connection to the heaven
+          and stars.
+        </p>
+      </div>
+    </div>
+    <div class="flex-section bottom kubo">
+      <div class="carosel">
+        <h1>Concept Art</h1>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" style="display:block">
+          <img src="../img/kubo/facial_expressions_01.jpg" alt="Boxtrolls Faces" style="width:100%" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../img/kubo/god_fight_concept.jpg" style="width:100%" />
+        </div>
+        <div class="mySlides fade">
+          <img src="../img/kubo/knight_hall_concept.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="../img/kubo/kubo_concept_01.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="../img/kubo/kubo_concept_02.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="../img/kubo/kubo_mom_01.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dots-div" style="text-align:center">
+          <span class="dot active" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <small>Interaction Foundations Fall 2023</small>
+      <br />
+      <small>Designed by Romina Diaz-Rivero</small>
+      <br />
+      <small>Directed by Christina Oates</small>
+    </div>
+    <div style="color:rgb(136, 162, 207)">
+      <small>Sources:</small>
+      <br />
+      <a href="https://www.laika.com/" style="color:rgb(136, 162, 207)"><small>https://www.laika.com/</small></a>
+      <br />
+      <a
+        href="https://characterdesignreferences.com"
+        style="color:rgb(136, 162, 207)"
+        >
+          <small>https://characterdesignreferences.com</small>
+        </a>
+    </div>
+  </footer>
+</html>
